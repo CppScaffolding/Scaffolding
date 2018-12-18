@@ -1,0 +1,33 @@
+# .gitignore for scaffolding
+.DS_Store
+
+# VS files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+## firstparty and thirdparty folders added via gclient
+firstparty*/*/
+!firstparty/*.lua
+!firstparty/config
+secondparty*/*/
+!secondparty/*.lua
+!secondparty/config
+thirdparty*/*/
+!thirdparty/*.lua
+!thirdparty/config
+tools*/*/
+!tools/bin/
+!tools/*.lua
+
+
+
+# Ninja files
+*.ninja
+*.ninja.old
+.ninja_*
+
+## Emscripten SDK
+tools/emsdk/
+
