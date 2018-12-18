@@ -1,0 +1,8 @@
+#!/bin/bash
+
+target=$1
+shift
+echo "wrapping command '$@' to scaffolding/$target.make"
+
+make -f scaffolding/makefiles/"$target".make "$@"
+
