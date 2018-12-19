@@ -7,3 +7,4 @@
 - `ch: <files...>`: changed a file
 - `im: <feature>`: implemented a feature
 - `rf: <feature>`: refactored a feature
+- `fx: <feature>`: fixed a feature/bug
