@@ -1,0 +1,8 @@
+#!/bin/bash
+
+GCLIENT_ROOT=./depot_tools
+
+echo "wrapping command '$@' to '$GCLIENT_ROOT/gclient'"
+
+PATH=/usr/bin/:$PATH eval './$GCLIENT_ROOT/gclient "$@"'
+#bash -c
