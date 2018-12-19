@@ -4,7 +4,9 @@
 
 - `ad: <files...>`: added a file
 - `rm: <files...>`: removed a file
+- `mv: <files...>`: moved a file
 - `ch: <files...>`: changed a file
 - `im: <feature>`: implemented a feature
 - `rf: <feature>`: refactored a feature
 - `fx: <feature>`: fixed a feature/bug
+- `mv: <feature>`: moved a feature/bug to another file
