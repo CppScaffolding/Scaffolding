@@ -1,0 +1,27 @@
+## == GIT COMMIT MESSAGE ==
+##
+## tl;dr
+## -----
+##
+## `prefix: <file/feature>`
+##
+## long description
+##
+## prefixes:
+## ---------
+## `ad: <files...>`: added a file
+## `rm: <files...>`: removed a file
+## `ch: <files...>`: changed a file
+## `im: <feature>`: implemented a feature
+## `rf: <feature>`: refactored a feature
+##
+##
+## INSERT PREFIX HERE:
+
+
+## INSERT DESCRIPTION HERE:
+
+
+##
+## EOF
+##
