@@ -32,6 +32,25 @@ At the root of project repo, run
 
 Edit your root repo's `DEPS` or `.gclient` file to add this repository.
 
+##### `.gclient` version
+
+```
+solutions = [
+ #~~~~~~~~~~~
+  ## scaffolding repo
+  {
+    "name"        : "scaffolding",
+    "url"         : "git@github.com:CppScaffolding/Scaffolding.git@master",
+    "deps_file"   : "DEPS",
+    "managed"     : True,
+    "custom_deps" : {},
+  },
+ #~~~~~~~~~~~
+]
+```
+
+##### `DEPS` version
+
 ```
 deps = {
  #~~~~~~~~~~~
